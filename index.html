@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Addiction Predictor</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teen Phone Addiction Predictor</h1>
+        <p>Enter the following details to predict the addiction level.</p>
+        <form id="prediction-form">
+            <div class="form-group">
+                <label for="sleep-hours">Sleep (Hours)</label>
+                <input type="number" id="sleep-hours" step="0.1" placeholder="e.g., 6.5" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" min="10" max="18" placeholder="e.g., 15" required>
+            </div>
+            <div class="form-group">
+                <label for="daily-usage-hours">Daily Usage (Hours)</label>
+                <input type="number" id="daily-usage-hours" step="0.1" placeholder="e.g., 5.5" required>
+            </div>
+            <div class="form-group">
+                <label for="academic-performance">Academic Performance (0-100)</label>
+                <input type="number" id="academic-performance" min="0" max="100" placeholder="e.g., 78" required>
+            </div>
+            <div class="form-group">
+                <label for="apps-used-daily">Apps Used Daily</label>
+                <input type="number" id="apps-used-daily" min="1" placeholder="e.g., 15" required>
+            </div>
+            <div class="form-group">
+                <label for="time-on-social-media">Time on Social Media (Hours)</label>
+                <input type="number" id="time-on-social-media" step="0.1" placeholder="e.g., 2.5" required>
+            </div>
+            <div class="form-group">
+                <label for="weekend-usage-hours">Weekend Usage (Hours)</label>
+                <input type="number" id="weekend-usage-hours" step="0.1" placeholder="e.g., 8.0" required>
+            </div>
+            <div class="form-group">
+                <label for="phone-checks-per-day">Phone Checks Per Day</label>
+                <input type="number" id="phone-checks-per-day" min="1" placeholder="e.g., 90" required>
+            </div>
+            <div class="form-group">
+                <label for="time-on-gaming">Time on Gaming (Hours)</label>
+                <input type="number" id="time-on-gaming" step="0.1" placeholder="e.g., 1.5" required>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result-container" class="hidden">
+            <h2>Predicted Addiction Level: <span id="prediction-result"></span></h2>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Admin/OneDrive/Desktop/ML_Flow_14.9.25/mlruns/913001450233152085/c6e4136141554ebf986746b9d8958a3e/artifacts
+deleted_time: 1757983615653
+end_time: 1757983217640
+entry_point_name: ''
+experiment_id: '913001450233152085'
+lifecycle_stage: deleted
+run_id: c6e4136141554ebf986746b9d8958a3e
+run_name: Lasso
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757983213371
+status: 3
+tags: []
+user_id: Admin

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Admin/OneDrive/Desktop/ML_Flow_14.9.25/mlruns/913001450233152085/62fdbf800aa643d5b2ec972abdcbe8c2/artifacts
+end_time: 1757983266619
+entry_point_name: ''
+experiment_id: '913001450233152085'
+lifecycle_stage: active
+run_id: 62fdbf800aa643d5b2ec972abdcbe8c2
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757983261628
+status: 3
+tags: []
+user_id: Admin

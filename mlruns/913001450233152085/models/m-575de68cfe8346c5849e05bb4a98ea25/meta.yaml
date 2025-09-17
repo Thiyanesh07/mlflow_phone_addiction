@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/Admin/OneDrive/Desktop/ML_Flow_14.9.25/mlruns/913001450233152085/models/m-575de68cfe8346c5849e05bb4a98ea25/artifacts
+creation_timestamp: 1757983910260
+experiment_id: '913001450233152085'
+last_updated_timestamp: 1757983914685
+model_id: m-575de68cfe8346c5849e05bb4a98ea25
+model_type: null
+name: model
+source_run_id: 9c19200aff6240f4b3c67ee3627c47ad
+status: 2
+status_message: null

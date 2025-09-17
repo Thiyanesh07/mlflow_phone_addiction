@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Admin/OneDrive/Desktop/ML_Flow_14.9.25/mlruns/913001450233152085/acc6ef51805b401cacd00b8815444e14/artifacts
+end_time: 1757993630057
+entry_point_name: ''
+experiment_id: '913001450233152085'
+lifecycle_stage: active
+run_id: acc6ef51805b401cacd00b8815444e14
+run_name: ElasticNet
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757993624467
+status: 3
+tags: []
+user_id: Admin

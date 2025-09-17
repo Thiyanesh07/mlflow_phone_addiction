@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Admin/OneDrive/Desktop/ML_Flow_14.9.25/mlruns/913001450233152085/9e5841a4b55a4ab0ae28abde0da0a3d7/artifacts
+end_time: 1757983271306
+entry_point_name: ''
+experiment_id: '913001450233152085'
+lifecycle_stage: active
+run_id: 9e5841a4b55a4ab0ae28abde0da0a3d7
+run_name: Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757983266628
+status: 3
+tags: []
+user_id: Admin

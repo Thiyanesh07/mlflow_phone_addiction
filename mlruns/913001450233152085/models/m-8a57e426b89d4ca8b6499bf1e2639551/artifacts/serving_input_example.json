@@ -1,0 +1,28 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Sleep_Hours",
+      "Age",
+      "Daily_Usage_Hours",
+      "Academic_Performance",
+      "Apps_Used_Daily",
+      "Time_on_Social_Media",
+      "Weekend_Usage_Hours",
+      "Phone_Checks_Per_Day",
+      "Time_on_Gaming"
+    ],
+    "data": [
+      [
+        3.4,
+        13,
+        1.3,
+        68,
+        5,
+        2.1,
+        7.7,
+        95,
+        0.0
+      ]
+    ]
+  }
+}
