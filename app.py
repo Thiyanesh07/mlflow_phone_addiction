@@ -12,6 +12,10 @@ try:
 except FileNotFoundError:
     print("Error: 'addiction_model_v2.pkl' not found. Please run the updated train_model.py first.")
     model = None
+    
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "Phone Addiction Prediction API is running!"})
 
 @app.route('/predict', methods=['POST'])
 def predict():
